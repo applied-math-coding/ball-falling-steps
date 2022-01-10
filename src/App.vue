@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-center mb-5">How many ways a ball can fall down a step.</h1>
+  <h1 class="text-center mb-5">How many ways a ball can fall down a stair.</h1>
   <div class="actions">
     <div>
       <Button label="Start" @click="handleStart()" v-if="!simulating" />
@@ -93,7 +93,7 @@ html {
   padding: 0 5vh 5vh 5vh;
 
   @media only screen and (max-width: 600px) {
-    padding: 0 2vh 2vh 2vh;;
+    padding: 0 2vh 2vh 2vh;
   }
 }
 
